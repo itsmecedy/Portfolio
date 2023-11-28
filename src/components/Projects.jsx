@@ -4,9 +4,12 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className="h-screen text-white flex justify-center items-center bg-blue-500"
+      className="h-screen text-white flex justify-center items-center flex-col bg-blue-500"
     >
-      Projects
+      <div className="border  md:w-[600px]">
+        <p>Projects</p>
+        <p>Each project is a unique piece of development</p>
+      </div>
     </div>
   );
 }
