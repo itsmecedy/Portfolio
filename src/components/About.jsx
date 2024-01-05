@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "/assets/aboutimg.jpg";
+import aboutImg from "/assets/aboutimg.jpg";
 
 function About() {
   return (
@@ -8,7 +8,7 @@ function About() {
       className="flex justify-center py-20 px-5 md:px-10 items-center flex-col lg:flex-row gap-10 max-w-[1280px] mx-auto "
     >
       <div className=" lg:w-1/2 flex justify-end ">
-        <img className=" rounded-2xl w-full max-w-lg mx-auto " src={heroImg} />
+        <img className=" rounded-2xl w-full max-w-lg mx-auto " src={aboutImg} />
       </div>
       <div className="lg:w-1/2 w-full md:w-[600px] ">
         <p className="bold uppercase font-bold text-lg text-blue-600 mb-4">
