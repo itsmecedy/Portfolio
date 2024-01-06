@@ -15,14 +15,14 @@ export default function Hero() {
       key={index}
       src={image}
       alt={`Image ${index}`}
-      className=" h-16 xl:h-16"
+      className=" h-12 md:h-16"
     />
   ));
   return (
-    <div id="home" className=" w-full md:h-screen  bg-[#f9f9f9] ">
-      <div className="flex-col lg:flex-row pt-16 md:pt-20 lg:pt-40 gap-5 h-auto max-w-[1280px] flex mx-auto ">
+    <div id="home" className="bg-[#f9f9f9] md:h-screen ">
+      <div className=" max-w-[80rem] flex justify-center items-center mx-auto px-5 pt-24 lg:pt-40 flex-col lg:flex-row gap-10">
         {/* left side in big screen */}
-        <div className="flex-1 flex justify-center px-5">
+        <div className="flex-1 flex justify-center px-5 ">
           <img
             loading="lazy"
             src={heroImg}
@@ -59,7 +59,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center mt-5 lg:mt-8 space-y-3 md:space-y-0 md:space-x-5 ">
+      <div className="flex flex-col md:flex-row justify-center items-center mt-5 pb-20 lg:mt-8 space-y-3 md:space-y-0 md:space-x-5 ">
         <p className=" xl:text-xl border-b-2 md:border-b-0 md:border-r-2 md:pr-5 border-black font-semibold">
           Tech Stack
         </p>
