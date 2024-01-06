@@ -5,12 +5,14 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Projects() {
   return (
-    <div id="projects" className="h-screen w-full md:h-screen bg-blue-500">
-      <div className="border max-w-[1280px] flex flex-col mx-auto  ">
-        <p>Projects</p>
-        <p>Each project is a unique piece of development</p>
+    <div id="projects" className=" w-full bg-[#f9f9f9] ">
+      <div className="test flex justify-center py-20 px-5 md:px-10 items-center flex-col gap-10 max-w-[1280px] mx-auto ">
+        <div className="flex test flex-col text-left ml-10">
+          <p className="">Projects</p>
+          <p>Each project is a unique piece of development</p>
+        </div>
         {/* projects */}
-        <div className="border max-w-[1200px] flex flex-col lg:flex-row mx-auto">
+        <div className="test  flex flex-col lg:flex-row mx-auto">
           {/* left side */}
           <div className="flex-1 flex justify-center px-5">
             <img
