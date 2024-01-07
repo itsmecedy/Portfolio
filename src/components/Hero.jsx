@@ -20,7 +20,7 @@ export default function Hero() {
   ));
   return (
     <div id="home" className="bg-[#f9f9f9] md:h-screen ">
-      <div className=" max-w-[80rem] flex justify-center items-center mx-auto px-5 pt-24 lg:pt-40 flex-col lg:flex-row gap-10">
+      <div className=" max-w-[80rem] flex justify-center items-center mx-auto px-5 pt-20 md:pt-24 lg:pt-40 flex-col lg:flex-row gap-10">
         {/* left side in big screen */}
         <div className="flex-1 flex justify-center px-5 ">
           <img
@@ -33,13 +33,13 @@ export default function Hero() {
         </div>
         {/* right side in big screen */}
         <div className="flex-1 lg:pt-20 px-5 md:px-20 lg:px-5  space-y-3 md:space-y-4">
-          <p className=" font-semibold text-2xl md:text-5xl ">
+          <p className="font-semibold text-2xl md:text-5xl ">
             Front-End Web Developer💻
           </p>
           <p className="text-slate-500 md:text-2xl lg:text-3xl  ">
             Hi I'm Cedrick Mancio. A passionate aspiring front-end developer.
           </p>
-          <div className=" justify-center gap-3 flex text-slate-700  text-5xl lg:text-6xl my-2 mb-20 mt-5">
+          <div className="justify-center gap-3 flex text-slate-700  text-5xl lg:text-6xl my-2 mb-20 mt-5">
             <a
               href="https://www.facebook.com/hillo.cabello/"
               target="_blank"
@@ -60,11 +60,11 @@ export default function Hero() {
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center mt-5 pb-20 lg:mt-8 space-y-3 md:space-y-0 md:space-x-5 ">
-        <p className=" xl:text-xl border-b-2 md:border-b-0 md:border-r-2 md:pr-5 border-black font-semibold">
+        <p className="xl:text-xl border-b-2 md:border-b-0 md:border-r-2 md:pr-5 border-black font-semibold">
           Tech Stack
         </p>
         <div className="flex ">
-          <div className="flex gap-4 flex-wrap justify-center ">
+          <div className="flex gap-6 flex-wrap justify-center ">
             {imageElements}
           </div>
         </div>
