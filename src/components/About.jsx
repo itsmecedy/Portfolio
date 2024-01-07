@@ -4,7 +4,7 @@ import aboutImg from "/assets/aboutimg.jpg";
 export default function About() {
   return (
     <div id="about">
-      <div className=" max-w-[80rem] flex justify-center items-center mx-auto px-5 py-20 md:py-24 test flex-col lg:flex-row gap-10 ">
+      <div className=" max-w-[80rem] flex justify-center items-center mx-auto px-5 py-20 md:py-24 flex-col lg:flex-row gap-10 ">
         <div className="lg:w-1/2 flex justify-center ">
           <img className="rounded-2xl w-full max-w-lg " src={aboutImg} />
         </div>
