@@ -16,7 +16,7 @@ export default function Projects() {
           </p>
         </div>
         {/* projects */}
-        <div className="flex flex-col lg:flex-row mx-auto bg-blue-100 rounded-md py-2 px-3 my-5">
+        <div className="flex flex-col lg:flex-row mx-auto shadow-xl bg-white rounded-md py-2 px-3 my-5">
           {/* left side */}
           <div className="flex-1 flex justify-center">
             <img
@@ -43,19 +43,29 @@ export default function Projects() {
               </span>
             </div>
             <div className="flex justify-center gap-5 ">
-              <button className="flex items-center space-x-1 hover:text-blue-700 ">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center space-x-1 hover:text-blue-700 hover:drop-shadow-md"
+              >
                 <p>Code</p>
                 <FiGithub />
-              </button>
-              <button className="flex items-center space-x-1 hover:text-blue-700">
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center space-x-1 hover:text-blue-700 hover:drop-shadow-md"
+              >
                 <p>Live Demo</p>
                 <FaExternalLinkAlt />
-              </button>
+              </a>
             </div>
           </div>
         </div>
         {/* project2 */}
-        <div className="flex flex-col lg:flex-row mx-auto bg-blue-100 rounded-md py-2 px-3 my-5">
+        <div className="flex flex-col lg:flex-row mx-auto shadow-xl bg-white rounded-md py-2 px-3 my-5">
           {/* left side */}
           <div className="flex-1 flex justify-center">
             <img
@@ -82,14 +92,24 @@ export default function Projects() {
               </span>
             </div>
             <div className="flex justify-center gap-5 ">
-              <button className="flex items-center space-x-1 hover:text-blue-700 ">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center space-x-1 hover:text-blue-700 hover:drop-shadow-md"
+              >
                 <p>Code</p>
                 <FiGithub />
-              </button>
-              <button className="flex items-center space-x-1 hover:text-blue-700">
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center space-x-1 hover:text-blue-700 hover:drop-shadow-md"
+              >
                 <p>Live Demo</p>
                 <FaExternalLinkAlt />
-              </button>
+              </a>
             </div>
           </div>
         </div>

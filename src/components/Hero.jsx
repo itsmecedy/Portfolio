@@ -7,6 +7,7 @@ import tailwind from "/assets/tailwindcss.png";
 import sass from "/assets/sass.png";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
+import Resume from "/assets/Mancio-Resume.pdf";
 
 export default function Hero() {
   const images = [html, css, javascript, react, sass, tailwind];
@@ -44,7 +45,7 @@ export default function Hero() {
               href="https://www.facebook.com/hillo.cabello/"
               target="_blank"
               rel="noreferrer"
-              className=" hover:text-blue-700"
+              className=" hover:text-blue-700 hover:shadow-md"
             >
               <FaFacebook />
             </a>
@@ -52,9 +53,19 @@ export default function Hero() {
               href="https://www.linkedin.com/"
               target="_blank"
               rel="noreferrer"
-              className=" hover:text-blue-700"
+              className=" hover:text-blue-700 hover:shadow-md"
             >
               <AiFillLinkedin />
+            </a>
+          </div>
+          <div className="py-2">
+            <a
+              href={Resume}
+              target="_blank"
+              rel="noreferrer"
+              className=" hover:bg-blue-700 bg-blue-600 hover:shadow-md px-3 py-2 rounded-md text-white lg:text-3xl text-lg"
+            >
+              View Resume
             </a>
           </div>
         </div>
