@@ -76,7 +76,7 @@ export default function Projects() {
                   </p>
                 ))}
               </div>
-              <div className="flex justify-center gap-5 ">
+              <div className="flex justify-center gap-5 pb-3 ">
                 <a
                   href={project.code}
                   target="_blank"

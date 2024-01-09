@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-800">
       <div className="max-w-[80rem] mx-auto ">
-        <div className="flex items-center flex-col lg:flex-row justify-between py-10 px-2 gap-5">
+        <div className="flex items-center flex-col lg:flex-row justify-between py-10 px-2  gap-5">
           <div className="flex justify-center items-center ">
             <p className=" text-white">
               Copyright © 2024. All rights are reserved
@@ -34,7 +34,7 @@ export default function Footer() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/"
+              href="https://github.com/itsmecedy"
               className=" hover:text-blue-500"
             >
               <FaGithub />
