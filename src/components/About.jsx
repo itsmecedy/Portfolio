@@ -13,17 +13,18 @@ export default function About() {
             about me
           </p>
           <p className="font-semibold text-2xl tracking-tight mb-4 lg:text-left ">
-            A dedicated Front-end Developer based in Belgrade, Serbia 📍
+            I'm Cedrick Mancio an aspiring front-end website developer based in
+            Philippines .
           </p>
           <p className="text-neutral-500 lg:text-left">
-            As a Junior Front-End Developer, I possess an impressive arsenal of
-            skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel
-            in designing and maintaining responsive websites that offer a smooth
-            user experience. My expertise lies in crafting dynamic, engaging
-            interfaces through writing clean and optimized code and utilizing
-            cutting-edge development tools and techniques. I am also a team
-            player who thrives in collaborating with cross-functional teams to
-            produce outstanding web applications.
+            As an aspiring front-end developer, I possess a diverse skill set
+            including HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel
+            in creating and maintaining responsive websites, ensuring a seamless
+            user experience. My strength lies in crafting dynamic and engaging
+            interfaces by writing clean, optimized code and employing
+            cutting-edge development tools. A collaborative team player, I
+            thrive in working with cross-functional teams to deliver outstanding
+            web applications.
           </p>
         </div>
       </div>

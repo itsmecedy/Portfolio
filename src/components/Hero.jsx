@@ -38,7 +38,7 @@ export default function Hero() {
             Front-End Web Developer💻
           </p>
           <p className="text-slate-500 md:text-2xl lg:text-3xl  ">
-            Hi I'm Cedrick Mancio. A passionate aspiring front-end developer.
+            Hi I'm Cedrick Mancio. A passionate aspiring front-end developer👋.
           </p>
           <div className="justify-center gap-3 flex text-slate-700  text-5xl lg:text-6xl my-2 mb-20 mt-5">
             <a
