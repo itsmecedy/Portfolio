@@ -1,5 +1,6 @@
 import React from "react";
 import aboutImg from "/assets/aboutimg.jpg";
+// import portfolio from "/assets/portfolio.png";
 import { FiGithub } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -7,11 +8,11 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      name: "Project 1",
-      date: "February 2023",
+      name: "My Portfolio",
+      date: "January 2023",
       image: { aboutImg },
-      code: "https://github.com/",
-      link: "https://www.facebook.com/",
+      code: "https://github.com/itsmecedy/Portfolio",
+      link: "https://mancio-portfolio.netlify.app/",
       description:
         " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem quas ipsa voluptatibus. Placeat, fugiat odio dicta corporis nulla eveniet tempora id iure, vel sunt ipsam itaque consectetur earum",
       techStack: ["React", "CSS", "Tailwind"],
@@ -61,7 +62,7 @@ export default function Projects() {
             <div className="flex-1 flex max-w-xl flex-col justify-center">
               <div className=" text-xl font-semibold mt-5 px-2">
                 {project.name}
-                <span className=" text-gray-600 pl-2">(February 2023)</span>
+                <span className=" text-gray-600 pl-2">{project.date}</span>
               </div>
               <p className="xl:mx-28 mt-3 text-gray-500">
                 {project.description}
