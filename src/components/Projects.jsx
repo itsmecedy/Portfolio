@@ -10,7 +10,7 @@ export default function Projects() {
       id: 1,
       name: "My Portfolio",
       date: "January 2023",
-      image: { aboutImg },
+      image: aboutImg,
       code: "https://github.com/itsmecedy/Portfolio",
       link: "https://mancio-portfolio.netlify.app/",
       description:
@@ -21,7 +21,7 @@ export default function Projects() {
       id: 2,
       name: "Project 2",
       date: "February 2023",
-      image: { aboutImg },
+      image: aboutImg,
       code: "https://github.com/",
       link: "https://www.facebook.com/",
       description:
@@ -33,7 +33,7 @@ export default function Projects() {
       id: 3,
       name: "Project 3",
       date: "February 2023",
-      image: { aboutImg },
+      image: aboutImg,
       code: "https://github.com/",
       link: "https://www.facebook.com/",
       description:
@@ -55,7 +55,7 @@ export default function Projects() {
             <div className="flex-1 flex justify-center">
               <img
                 className=" rounded-md w-full max-w-2xl h-auto mx-auto "
-                src={aboutImg}
+                src={project.image}
               />
             </div>
             {/* right side */}
