@@ -45,7 +45,7 @@ export default function Hero() {
               href="https://www.facebook.com/hillo.cabello/"
               target="_blank"
               rel="noreferrer"
-              className=" hover:text-blue-700 hover:shadow-md"
+              className=" hover:text-blue-700"
             >
               <FaFacebook />
             </a>
@@ -53,7 +53,7 @@ export default function Hero() {
               href="https://www.linkedin.com/"
               target="_blank"
               rel="noreferrer"
-              className=" hover:text-blue-700 hover:shadow-md"
+              className=" hover:text-blue-700 "
             >
               <AiFillLinkedin />
             </a>
