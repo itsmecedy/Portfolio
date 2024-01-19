@@ -1,6 +1,5 @@
 import React from "react";
-import aboutImg from "/assets/aboutimg.jpg";
-// import portfolio from "/assets/portfolio.png";
+import portfolio from "/assets/portfolio.png";
 import { FiGithub } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -10,7 +9,7 @@ export default function Projects() {
       id: 1,
       name: "My Portfolio",
       date: "January 2023",
-      image: aboutImg,
+      image: portfolio,
       code: "https://github.com/itsmecedy/Portfolio",
       link: "https://mancio-portfolio.netlify.app/",
       description:
@@ -21,7 +20,7 @@ export default function Projects() {
       id: 2,
       name: "Project 2",
       date: "February 2023",
-      image: aboutImg,
+      image: portfolio,
       code: "https://github.com/",
       link: "https://www.facebook.com/",
       description:
@@ -33,7 +32,7 @@ export default function Projects() {
       id: 3,
       name: "Project 3",
       date: "February 2023",
-      image: aboutImg,
+      image: portfolio,
       code: "https://github.com/",
       link: "https://www.facebook.com/",
       description:
@@ -49,14 +48,13 @@ export default function Projects() {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="flex flex-col lg:flex-row mx-auto shadow-xl bg-white rounded-md py-2 px-3 my-5"
+            className="flex flex-col lg:flex-row mx-auto shadow-xl bg-white rounded-md py-3 px-4 my-5"
           >
             {/* left side */}
             <div className="flex-1 flex justify-center">
-              <img
-                className=" rounded-md w-full max-w-2xl h-auto mx-auto "
-                src={project.image}
-              />
+              <div className="wrapperScroll">
+                <img className="imgScroll" src={project.image} />
+              </div>
             </div>
             {/* right side */}
             <div className="flex-1 flex max-w-xl flex-col justify-center">
@@ -64,7 +62,7 @@ export default function Projects() {
                 {project.name}
                 <span className=" text-gray-600 pl-2">{project.date}</span>
               </div>
-              <p className="xl:mx-28 mt-3 text-gray-500">
+              <p className="xl:mx-28 mt-3 px-2 text-gray-500">
                 {project.description}
               </p>
               <div className="flex justify-center gap-5 py-6">
