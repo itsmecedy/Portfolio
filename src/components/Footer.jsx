@@ -25,7 +25,7 @@ export default function Footer() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/cedrick-mancio/"
               className=" hover:text-blue-500"
             >
               <FaLinkedin />

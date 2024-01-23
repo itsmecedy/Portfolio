@@ -50,7 +50,7 @@ export default function Hero() {
               <FaFacebook />
             </a>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/cedrick-mancio/"
               target="_blank"
               rel="noreferrer"
               className=" hover:text-blue-700 "
