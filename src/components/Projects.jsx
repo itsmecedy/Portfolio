@@ -1,5 +1,7 @@
 import React from "react";
 import portfolio from "/assets/portfolio.png";
+import MichiRamen from "/assets/michi-ramen.png";
+import MiniChallenges from "/assets/MiniChallenges.png";
 import { FiGithub } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -8,7 +10,7 @@ export default function Projects() {
     {
       id: 1,
       name: "My Portfolio",
-      date: "January 2023",
+      date: "January 2024",
       image: portfolio,
       code: "https://github.com/itsmecedy/Portfolio",
       link: "https://mancio-portfolio.netlify.app/",
@@ -18,27 +20,27 @@ export default function Projects() {
     },
     {
       id: 2,
-      name: "Project 2",
-      date: "February 2023",
-      image: portfolio,
-      code: "https://github.com/",
-      link: "https://www.facebook.com/",
+      name: "Mini Challenges",
+      date: "January 2023",
+      image: MiniChallenges,
+      code: "https://github.com/itsmecedy/mini-challenges",
+      link: "https://minichallenges.netlify.app/",
       description:
         " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem quas ipsa voluptatibus. Placeat, fugiat odio dicta corporis nulla eveniet tempora id iure, vel sunt ipsam itaque consectetur earum",
       techStack: ["React", "CSS", "Tailwind"],
     },
-
     {
       id: 3,
-      name: "Project 3",
-      date: "February 2023",
-      image: portfolio,
-      code: "https://github.com/",
-      link: "https://www.facebook.com/",
+      name: "Michi Ramen Clone",
+      date: "November 2022",
+      image: MichiRamen,
+      code: "https://github.com/itsmecedy/MichiRamen",
+      link: "https://michi-ramen-github.netlify.app/",
       description:
         " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem quas ipsa voluptatibus. Placeat, fugiat odio dicta corporis nulla eveniet tempora id iure, vel sunt ipsam itaque consectetur earum",
-      techStack: ["React", "CSS", "Tailwind"],
+      techStack: ["HTML", "CSS", "Tailwind"],
     },
+
     // Add more projects as needed
   ];
 
