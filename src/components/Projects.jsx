@@ -2,13 +2,14 @@ import React from "react";
 import portfolio from "/assets/portfolio.png";
 import MichiRamen from "/assets/michi-ramen.png";
 import MiniChallenges from "/assets/MiniChallenges.png";
+import ABCMotorShop from "/assets/abc-motor-shop.jpg";
 import { FiGithub } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Projects() {
   const projects = [
     {
-      id: 1,
+      id: 0,
       name: "My Portfolio",
       date: "January 2024",
       image: portfolio,
@@ -17,6 +18,25 @@ export default function Projects() {
       description:
         " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem quas ipsa voluptatibus. Placeat, fugiat odio dicta corporis nulla eveniet tempora id iure, vel sunt ipsam itaque consectetur earum",
       techStack: ["React", "CSS", "Tailwind"],
+    },
+    {
+      id: 1,
+      name: "ABC Motor Parts Store",
+      date: "December 2021",
+      image: ABCMotorShop,
+
+      description:
+        " This is the product of our thesis made with Python, Django, REST, HTML, CSS, JS, ReactJs, TailwindCSS entitled Online Sales and Inventory for ABC Motor Parts The system designed and constructed a Web Based Sales and Inventory to increase efficiency and improve services provided to the customers through better application of technology.",
+      techStack: [
+        "React",
+        "HTML",
+        "CSS",
+        "JS",
+        "TailwindCSS",
+        "Python",
+        "Django",
+        "REST",
+      ],
     },
     {
       id: 2,
@@ -67,7 +87,7 @@ export default function Projects() {
               <p className="xl:mx-28 mt-3 px-2 text-gray-500">
                 {project.description}
               </p>
-              <div className="flex justify-center gap-5 py-6">
+              <div className="flex justify-center gap-5 py-6 flex-wrap">
                 {project.techStack.map((tech, index) => (
                   <p
                     key={index}
@@ -78,24 +98,28 @@ export default function Projects() {
                 ))}
               </div>
               <div className="flex justify-center gap-5 pb-3 ">
-                <a
-                  href={project.code}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center space-x-1 hover:text-blue-700 hover:drop-shadow-md"
-                >
-                  <p>Code</p>
-                  <FiGithub />
-                </a>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center space-x-1 hover:text-blue-700 hover:drop-shadow-md"
-                >
-                  <p>Live Demo</p>
-                  <FaExternalLinkAlt />
-                </a>
+                {project.code && (
+                  <a
+                    href={project.code}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center space-x-1 hover:text-blue-700 hover:drop-shadow-md"
+                  >
+                    <p>Code</p>
+                    <FiGithub />
+                  </a>
+                )}
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center space-x-1 hover:text-blue-700 hover:drop-shadow-md"
+                  >
+                    <p>Live Demo</p>
+                    <FaExternalLinkAlt />
+                  </a>
+                )}
               </div>
             </div>
           </div>
