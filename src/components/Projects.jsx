@@ -4,6 +4,7 @@ import MichiRamen from "/assets/michi-ramen.png";
 import MiniChallenges from "/assets/MiniChallenges.png";
 import ABCMotorShop from "/assets/abc-motor-shop.jpg";
 import CoronPalawan from "/assets/coron-palawan.png";
+import MultiStepForm from "/assets/multi-step-form.png";
 import { FiGithub } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -40,6 +41,17 @@ export default function Projects() {
     },
     {
       id: 2,
+      name: "Multi Step Form ",
+      date: "February 2023",
+      image: MultiStepForm,
+      code: "https://github.com/itsmecedy/Multi-step-form",
+      link: "https://multi-select-form.netlify.app/",
+      description:
+        " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem quas ipsa voluptatibus. Placeat, fugiat odio dicta corporis nulla eveniet tempora id iure, vel sunt ipsam itaque consectetur earum",
+      techStack: ["HTML", "CSS", "JS"],
+    },
+    {
+      id: 3,
       name: "Mini Challenges",
       date: "January 2023",
       image: MiniChallenges,
@@ -50,7 +62,7 @@ export default function Projects() {
       techStack: ["React", "CSS", "Tailwind"],
     },
     {
-      id: 3,
+      id: 4,
       name: "Michi Ramen Clone",
       date: "November 2022",
       image: MichiRamen,
@@ -61,7 +73,7 @@ export default function Projects() {
       techStack: ["HTML", "CSS", "Tailwind"],
     },
     {
-      id: 4,
+      id: 5,
       name: "Coron Palawan",
       date: "November 2022",
       image: CoronPalawan,
@@ -77,7 +89,8 @@ export default function Projects() {
 
   return (
     <div id="projects" className="bg-[#f9f9f9]">
-      <div className=" max-w-[80rem] flex justify-center items-center mx-auto pt-20 md:pt-24 px-5 flex-col">
+      <div className=" max-w-[80rem] flex justify-center mx-auto pt-16 md:pt-20 px-5 flex-col">
+        <p className=" flex text-4xl text-gray-800 mb-2">Projects</p>
         {projects.map((project) => (
           <div
             key={project.id}
