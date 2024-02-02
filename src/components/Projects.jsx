@@ -24,7 +24,6 @@ export default function Projects() {
       name: "ABC Motor Parts Store",
       date: "December 2021",
       image: ABCMotorShop,
-
       description:
         " This is the product of our thesis made with Python, Django, REST, HTML, CSS, JS, ReactJs, TailwindCSS entitled Online Sales and Inventory for ABC Motor Parts The system designed and constructed a Web Based Sales and Inventory to increase efficiency and improve services provided to the customers through better application of technology.",
       techStack: [
@@ -59,6 +58,17 @@ export default function Projects() {
       description:
         " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem quas ipsa voluptatibus. Placeat, fugiat odio dicta corporis nulla eveniet tempora id iure, vel sunt ipsam itaque consectetur earum",
       techStack: ["HTML", "CSS", "Tailwind"],
+    },
+    {
+      id: 4,
+      name: "Coron Palawan",
+      date: "November 2022",
+      image: MichiRamen,
+      code: "https://github.com/itsmecedy/Coron-Palawan",
+      link: "https://palawan-website.netlify.app",
+      description:
+        " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem quas ipsa voluptatibus. Placeat, fugiat odio dicta corporis nulla eveniet tempora id iure, vel sunt ipsam itaque consectetur earum",
+      techStack: ["HTML", "CSS", "Sass"],
     },
 
     // Add more projects as needed
