@@ -3,6 +3,7 @@ import portfolio from "/assets/portfolio.png";
 import MichiRamen from "/assets/michi-ramen.png";
 import MiniChallenges from "/assets/MiniChallenges.png";
 import ABCMotorShop from "/assets/abc-motor-shop.jpg";
+import CoronPalawan from "/assets/coron-palawan.png";
 import { FiGithub } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -63,7 +64,7 @@ export default function Projects() {
       id: 4,
       name: "Coron Palawan",
       date: "November 2022",
-      image: MichiRamen,
+      image: CoronPalawan,
       code: "https://github.com/itsmecedy/Coron-Palawan",
       link: "https://palawan-website.netlify.app",
       description:
