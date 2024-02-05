@@ -18,7 +18,7 @@ export default function Projects() {
       code: "https://github.com/itsmecedy/Portfolio",
       link: "https://mancio-portfolio.netlify.app/",
       description:
-        " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem quas ipsa voluptatibus. Placeat, fugiat odio dicta corporis nulla eveniet tempora id iure, vel sunt ipsam itaque consectetur earum",
+        "Welcome to my web portfolio, the gateway to my world as a frontend developer. Explore a showcase of my skills and projects that serves as a visual testament to my journey. Each project tells a unique story of creativity and innovation, showcasing my dedication to crafting engaging and innovative digital experiences.",
       techStack: ["React", "CSS", "Tailwind"],
     },
     {
@@ -47,7 +47,7 @@ export default function Projects() {
       code: "https://github.com/itsmecedy/Multi-step-form",
       link: "https://multi-select-form.netlify.app/",
       description:
-        " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem quas ipsa voluptatibus. Placeat, fugiat odio dicta corporis nulla eveniet tempora id iure, vel sunt ipsam itaque consectetur earum",
+        "This project was created to practice the Frontend Mentor challenges. This form, created with HTML, CSS, and JavaScript, not only demonstrates my growing expertise in these languages, but also underlines my dedication to designing user-friendly interfaces.",
       techStack: ["HTML", "CSS", "JS"],
     },
     {
@@ -58,7 +58,7 @@ export default function Projects() {
       code: "https://github.com/itsmecedy/mini-challenges",
       link: "https://minichallenges.netlify.app/",
       description:
-        " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem quas ipsa voluptatibus. Placeat, fugiat odio dicta corporis nulla eveniet tempora id iure, vel sunt ipsam itaque consectetur earum",
+        "These beginner projects really made a difference in my coding journey. They were like stepping stones, helping me feel more comfortable and confident in my coding skills. Instead of feeling intimidated, I'm now excited to kick off new projects. Thanks to Andy Sterkowitz's guidance, learning JavaScript has become a fun and rewarding adventure.",
       techStack: ["React", "CSS", "Tailwind"],
     },
     {
@@ -69,7 +69,7 @@ export default function Projects() {
       code: "https://github.com/itsmecedy/MichiRamen",
       link: "https://michi-ramen-github.netlify.app/",
       description:
-        " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem quas ipsa voluptatibus. Placeat, fugiat odio dicta corporis nulla eveniet tempora id iure, vel sunt ipsam itaque consectetur earum",
+        "This is a clone website inspired by Michi Ramen where I practiced my HTML and CSS skills. The project was all about practicing web design and development, with a particular focus on improving my web responsiveness skills. Venturing through GitHub and Netlify, I made this project come alive, marking a meaningful step in my journey towards becoming a skilled web developer.",
       techStack: ["HTML", "CSS", "Tailwind"],
     },
     {
@@ -80,10 +80,9 @@ export default function Projects() {
       code: "https://github.com/itsmecedy/Coron-Palawan",
       link: "https://palawan-website.netlify.app",
       description:
-        " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem quas ipsa voluptatibus. Placeat, fugiat odio dicta corporis nulla eveniet tempora id iure, vel sunt ipsam itaque consectetur earum",
+        "Check out my Coron Palawan website, a project shaped by my HTML, CSS, and SaSS learning journey with guidance from Emmanuel Santiago's tutorial. Come along and experience the charm of Coron through my web development perspective!",
       techStack: ["HTML", "CSS", "Sass"],
     },
-
     // Add more projects as needed
   ];
 
