@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineMenu } from "react-icons/ai";
 
@@ -10,24 +10,10 @@ export default function Navigation() {
     { id: "#contact", label: "Contact" },
   ];
   const [isOpen, setIsOpen] = useState(false);
-  const navRef = useRef(null);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
-  const handleClickOutside = (event) => {
-    if (navRef.current && !navRef.current.contains(event.target)) {
-      setIsOpen(false);
-    }
-  };
-
-  useEffect(() => {
-    document.addEventListener("click", handleClickOutside);
-    return () => {
-      document.removeEventListener("click", handleClickOutside);
-    };
-  }, []);
 
   return (
     <nav className="bg-gray-800">
@@ -63,27 +49,21 @@ export default function Navigation() {
         </div>
       </div>
       {/* Mobile Navigation when menu is open */}
-      <div>
-        <button onClick={toggleMenu}>Toggle Menu</button>
-        {isOpen && (
-          <ul
-            ref={navRef}
-            className="absolute top-16 left-0 w-full bg-gray-800 z-50"
-          >
-            {navItems.map((item, index) => (
-              <li key={index} className="px-4 py-2">
-                <Link
-                  to={item.path}
-                  onClick={toggleMenu}
-                  className="text-white hover:bg-gray-700 rounded block w-full text-center"
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        )}
-      </div>
+      {isOpen && (
+        <ul className="md:hidden">
+          {navItems.map((item) => (
+            <li key={item.id} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <a
+                href={item.id}
+                onClick={toggleMenu}
+                className="text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium"
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
     </nav>
   );
 }
