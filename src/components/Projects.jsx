@@ -41,6 +41,17 @@ export default function Projects() {
     },
     {
       id: 2,
+      name: "Frontend Mentor Projects",
+      date: "February 2025",
+      image: MultiStepForm,
+      code: "https://github.com/itsmecedy/Multi-step-form",
+      link: "https://multi-select-form.netlify.app/",
+      description:
+        "This project was created to practice the Frontend Mentor challenges. This form, created with HTML, CSS, and JavaScript, not only demonstrates my growing expertise in these languages, but also underlines my dedication to designing user-friendly interfaces.",
+      techStack: ["HTML", "CSS", "JS"],
+    },
+    {
+      id: 3,
       name: "Multi Step Form ",
       date: "February 2023",
       image: MultiStepForm,
@@ -51,7 +62,7 @@ export default function Projects() {
       techStack: ["HTML", "CSS", "JS"],
     },
     {
-      id: 3,
+      id: 4,
       name: "Mini Challenges",
       date: "January 2023",
       image: MiniChallenges,
@@ -62,7 +73,7 @@ export default function Projects() {
       techStack: ["React", "CSS", "Tailwind"],
     },
     {
-      id: 4,
+      id: 5,
       name: "Michi Ramen Clone",
       date: "November 2022",
       image: MichiRamen,
@@ -73,7 +84,7 @@ export default function Projects() {
       techStack: ["HTML", "CSS", "Tailwind"],
     },
     {
-      id: 5,
+      id: 6,
       name: "Coron Palawan",
       date: "November 2022",
       image: CoronPalawan,
