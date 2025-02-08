@@ -48,7 +48,7 @@ export default function Projects() {
       link: "https://multi-select-form.netlify.app/",
       description:
         "This project was created to practice the Frontend Mentor challenges. This form, created with HTML, CSS, and JavaScript, not only demonstrates my growing expertise in these languages, but also underlines my dedication to designing user-friendly interfaces.",
-      techStack: ["HTML", "CSS", "JS"],
+      techStack: ["HTML", "CSS", "JS", "TailwindCSS", "ReactJS"],
     },
     {
       id: 3,
