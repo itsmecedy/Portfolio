@@ -4,7 +4,7 @@ import MichiRamen from "/assets/michi-ramen.png";
 import MiniChallenges from "/assets/MiniChallenges.png";
 import ABCMotorShop from "/assets/abc-motor-shop.jpg";
 import CoronPalawan from "/assets/coron-palawan.png";
-import MultiStepForm from "/assets/multi-step-form.png";
+import FrontendMentorProj from "/assets/frontend-mentor-projects.png";
 import { FiGithub } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -43,26 +43,15 @@ export default function Projects() {
       id: 2,
       name: "Frontend Mentor Projects",
       date: "February 2025",
-      image: MultiStepForm,
-      code: "https://github.com/itsmecedy/Multi-step-form",
-      link: "https://multi-select-form.netlify.app/",
+      image: FrontendMentorProj,
+      code: "https://github.com/itsmecedy/frontend-mentor-projects-",
+      link: "https://frontend-mentor-projects-itsmecedy.netlify.app/",
       description:
-        "This project was created to practice the Frontend Mentor challenges. This form, created with HTML, CSS, and JavaScript, not only demonstrates my growing expertise in these languages, but also underlines my dedication to designing user-friendly interfaces.",
+        "I worked on these Frontend Mentor projects to improve my layout, interactivity, and responsiveness skills. I practiced Sass for better styling structure, TailwindCSS for speed, and React for building interactive components. It was a great way to apply what Ive learned and get more comfortable with modern frontend tools.",
       techStack: ["HTML", "CSS", "JS", "TailwindCSS", "ReactJS"],
     },
     {
       id: 3,
-      name: "Multi Step Form ",
-      date: "February 2023",
-      image: MultiStepForm,
-      code: "https://github.com/itsmecedy/Multi-step-form",
-      link: "https://multi-select-form.netlify.app/",
-      description:
-        "This project was created to practice the Frontend Mentor challenges. This form, created with HTML, CSS, and JavaScript, not only demonstrates my growing expertise in these languages, but also underlines my dedication to designing user-friendly interfaces.",
-      techStack: ["HTML", "CSS", "JS"],
-    },
-    {
-      id: 4,
       name: "Mini Challenges",
       date: "January 2023",
       image: MiniChallenges,
@@ -73,7 +62,7 @@ export default function Projects() {
       techStack: ["React", "CSS", "Tailwind"],
     },
     {
-      id: 5,
+      id: 4,
       name: "Michi Ramen Clone",
       date: "November 2022",
       image: MichiRamen,
@@ -84,7 +73,7 @@ export default function Projects() {
       techStack: ["HTML", "CSS", "Tailwind"],
     },
     {
-      id: 6,
+      id: 5,
       name: "Coron Palawan",
       date: "November 2022",
       image: CoronPalawan,
@@ -96,6 +85,12 @@ export default function Projects() {
     },
     // Add more projects as needed
   ];
+  // Sorting logic: Keep 0 & 1 first, then reverse the rest
+  // const sortedProjects = [
+  //   projects[0],
+  //   projects[1],
+  //   ...projects.slice(2).reverse()
+  // ];
 
   return (
     <div id="projects" className="bg-[#f9f9f9]">
@@ -131,6 +126,7 @@ export default function Projects() {
                   </p>
                 ))}
               </div>
+              {/* Projects link and github repositories */}
               <div className="flex justify-center gap-5 pb-3 ">
                 {project.code && (
                   <a
