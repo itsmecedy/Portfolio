@@ -83,7 +83,7 @@ export default function Projects() {
         "Check out my Coron Palawan website, a project shaped by my HTML, CSS, and SaSS learning journey with guidance from Emmanuel Santiago's tutorial. Come along and experience the charm of Coron through my web development perspective!",
       techStack: ["HTML", "CSS", "Sass"],
     },
-    // Add more projects as needed
+    // Add more projects here
   ];
   // Sorting logic: Keep 0 & 1 first, then reverse the rest
   // const sortedProjects = [
