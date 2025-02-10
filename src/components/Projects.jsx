@@ -41,28 +41,17 @@ export default function Projects() {
     },
     {
       id: 2,
-      name: "Frontend Mentor Projects",
-      date: "February 2025",
-      image: FrontendMentorProj,
-      code: "https://github.com/itsmecedy/frontend-mentor-projects-",
-      link: "https://frontend-mentor-projects-itsmecedy.netlify.app/",
+      name: "Coron Palawan",
+      date: "November 2022",
+      image: CoronPalawan,
+      code: "https://github.com/itsmecedy/Coron-Palawan",
+      link: "https://palawan-website.netlify.app",
       description:
-        "I worked on these Frontend Mentor projects to improve my layout, interactivity, and responsiveness skills. I practiced Sass for better styling structure, TailwindCSS for speed, and React for building interactive components. It was a great way to apply what Ive learned and get more comfortable with modern frontend tools.",
-      techStack: ["HTML", "CSS", "JS", "TailwindCSS", "ReactJS"],
+        "Check out my Coron Palawan website, a project shaped by my HTML, CSS, and SaSS learning journey with guidance from Emmanuel Santiago's tutorial. Come along and experience the charm of Coron through my web development perspective!",
+      techStack: ["HTML", "CSS", "Sass"],
     },
     {
       id: 3,
-      name: "Mini Challenges",
-      date: "January 2023",
-      image: MiniChallenges,
-      code: "https://github.com/itsmecedy/mini-challenges",
-      link: "https://minichallenges.netlify.app/",
-      description:
-        "These beginner projects really made a difference in my coding journey. They were like stepping stones, helping me feel more comfortable and confident in my coding skills. Instead of feeling intimidated, I'm now excited to kick off new projects. Thanks to Andy Sterkowitz's guidance, learning JavaScript has become a fun and rewarding adventure.",
-      techStack: ["React", "CSS", "Tailwind"],
-    },
-    {
-      id: 4,
       name: "Michi Ramen Clone",
       date: "November 2022",
       image: MichiRamen,
@@ -73,30 +62,42 @@ export default function Projects() {
       techStack: ["HTML", "CSS", "Tailwind"],
     },
     {
-      id: 5,
-      name: "Coron Palawan",
-      date: "November 2022",
-      image: CoronPalawan,
-      code: "https://github.com/itsmecedy/Coron-Palawan",
-      link: "https://palawan-website.netlify.app",
+      id: 4,
+      name: "Mini Challenges",
+      date: "January 2023",
+      image: MiniChallenges,
+      code: "https://github.com/itsmecedy/mini-challenges",
+      link: "https://minichallenges.netlify.app/",
       description:
-        "Check out my Coron Palawan website, a project shaped by my HTML, CSS, and SaSS learning journey with guidance from Emmanuel Santiago's tutorial. Come along and experience the charm of Coron through my web development perspective!",
-      techStack: ["HTML", "CSS", "Sass"],
+        "These beginner projects really made a difference in my coding journey. They were like stepping stones, helping me feel more comfortable and confident in my coding skills. Instead of feeling intimidated, I'm now excited to kick off new projects. Thanks to Andy Sterkowitz's guidance, learning JavaScript has become a fun and rewarding adventure.",
+      techStack: ["React", "CSS", "Tailwind"],
     },
+    {
+      id: 5,
+      name: "Frontend Mentor Projects",
+      date: "February 2025",
+      image: FrontendMentorProj,
+      code: "https://github.com/itsmecedy/frontend-mentor-projects-",
+      link: "https://frontend-mentor-projects-itsmecedy.netlify.app/",
+      description:
+        "I worked on these Frontend Mentor projects to improve my layout, interactivity, and responsiveness skills. I practiced Sass for better styling structure, TailwindCSS for speed, and React for building interactive components. It was a great way to apply what Ive learned and get more comfortable with modern frontend tools.",
+      techStack: ["HTML", "CSS", "JS", "TailwindCSS", "ReactJS"],
+    },
+
     // Add more projects here
   ];
   // Sorting logic: Keep 0 & 1 first, then reverse the rest
-  // const sortedProjects = [
-  //   projects[0],
-  //   projects[1],
-  //   ...projects.slice(2).reverse()
-  // ];
+  const sortedProjects = [
+    projects[0],
+    projects[1],
+    ...projects.slice(2).reverse(),
+  ];
 
   return (
     <div id="projects" className="bg-[#f9f9f9]">
       <div className=" max-w-[80rem] flex justify-center mx-auto pt-16 md:pt-20 px-5 flex-col">
         <p className=" flex text-4xl text-gray-800 mb-2">Projects</p>
-        {projects.map((project) => (
+        {sortedProjects.map((project) => (
           <div
             key={project.id}
             className="flex flex-col lg:flex-row mx-auto shadow-xl bg-white rounded-md py-3 px-4 my-5"
