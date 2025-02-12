@@ -90,8 +90,8 @@ export default function Projects() {
       name: "Pokedex",
       date: "October 2024",
       image: Pokedex,
-      code: "https://github.com/itsmecedy/frontend-mentor-projects-",
-      link: "https://frontend-mentor-projects-itsmecedy.netlify.app/",
+      code: "https://github.com/itsmecedy/Pokemon",
+      link: "https://itzmecedy-pokedex.netlify.app/",
       description:
         "An interactive Pokédex that allows users to search for Pokémon and view their stats, abilities, and types. Built using PokeAPI to fetch real-time Pokémon data.",
       techStack: ["HTML", "CSS", "JavaScript", "SCSS", "PokeAPI"],
