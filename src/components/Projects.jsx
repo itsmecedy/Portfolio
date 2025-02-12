@@ -5,6 +5,8 @@ import MiniChallenges from "/assets/MiniChallenges.png";
 import ABCMotorShop from "/assets/abc-motor-shop.jpg";
 import CoronPalawan from "/assets/coron-palawan.png";
 import FrontendMentorProj from "/assets/frontend-mentor-projects.png";
+import Pokedex from "/assets/pokedex.png";
+import WeatherApp from "/assets/weather-app.png";
 import { FiGithub } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -19,7 +21,7 @@ export default function Projects() {
       link: "https://mancio-portfolio.netlify.app/",
       description:
         "Welcome to my web portfolio, the gateway to my world as a frontend developer. Explore a showcase of my skills and projects that serves as a visual testament to my journey. Each project tells a unique story of creativity and innovation, showcasing my dedication to crafting engaging and innovative digital experiences.",
-      techStack: ["React", "CSS", "Tailwind"],
+      techStack: ["HTML", "CSS", "JS", "React", "CSS", "Tailwind"],
     },
     {
       id: 1,
@@ -82,6 +84,28 @@ export default function Projects() {
       description:
         "I worked on these Frontend Mentor projects to improve my layout, interactivity, and responsiveness skills. I practiced Sass for better styling structure, TailwindCSS for speed, and React for building interactive components. It was a great way to apply what Ive learned and get more comfortable with modern frontend tools.",
       techStack: ["HTML", "CSS", "JS", "TailwindCSS", "ReactJS"],
+    },
+    {
+      id: 6,
+      name: "Pokedex",
+      date: "October 2024",
+      image: Pokedex,
+      code: "https://github.com/itsmecedy/frontend-mentor-projects-",
+      link: "https://frontend-mentor-projects-itsmecedy.netlify.app/",
+      description:
+        "An interactive Pokédex that allows users to search for Pokémon and view their stats, abilities, and types. Built using PokeAPI to fetch real-time Pokémon data.",
+      techStack: ["HTML", "CSS", "JavaScript", "SCSS", "PokeAPI"],
+    },
+    {
+      id: 7,
+      name: "Weather App",
+      date: "February 2025",
+      image: WeatherApp,
+      code: "https://github.com/itsmecedy/weather-app",
+      link: "https://itzmecedy-weather-app.netlify.app/",
+      description:
+        "A weather application that provides real-time weather updates along with a 5-day forecast, showing temperature trends and conditions. Built using OpenWeatherMap API.",
+      techStack: ["HTML", "CSS", "JavaScript", "SCSS", "OpenWeatherMap API"],
     },
 
     // Add more projects here
