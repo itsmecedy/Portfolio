@@ -76,6 +76,17 @@ export default function Projects() {
     },
     {
       id: 5,
+      name: "Pokedex",
+      date: "October 2024",
+      image: Pokedex,
+      code: "https://github.com/itsmecedy/Pokemon",
+      link: "https://itzmecedy-pokedex.netlify.app/",
+      description:
+        "An interactive Pokédex that allows users to search for Pokémon and view their stats, abilities, and types. Built using PokeAPI to fetch real-time Pokémon data.",
+      techStack: ["HTML", "CSS", "JavaScript", "Sass", "PokeAPI"],
+    },
+    {
+      id: 6,
       name: "Frontend Mentor Projects",
       date: "February 2025",
       image: FrontendMentorProj,
@@ -84,17 +95,6 @@ export default function Projects() {
       description:
         "I worked on these Frontend Mentor projects to improve my layout, interactivity, and responsiveness skills. I practiced Sass for better styling structure, TailwindCSS for speed, and React for building interactive components. It was a great way to apply what Ive learned and get more comfortable with modern frontend tools.",
       techStack: ["HTML", "CSS", "JS", "TailwindCSS", "ReactJS"],
-    },
-    {
-      id: 6,
-      name: "Pokedex",
-      date: "October 2024",
-      image: Pokedex,
-      code: "https://github.com/itsmecedy/Pokemon",
-      link: "https://itzmecedy-pokedex.netlify.app/",
-      description:
-        "An interactive Pokédex that allows users to search for Pokémon and view their stats, abilities, and types. Built using PokeAPI to fetch real-time Pokémon data.",
-      techStack: ["HTML", "CSS", "JavaScript", "SCSS", "PokeAPI"],
     },
     {
       id: 7,
@@ -110,6 +110,7 @@ export default function Projects() {
 
     // Add more projects here
   ];
+
   // Sorting logic: Keep 0 & 1 first, then reverse the rest
   const sortedProjects = [
     projects[0],
