@@ -7,6 +7,8 @@ import CoronPalawan from "/assets/coron-palawan.png";
 import FrontendMentorProj from "/assets/frontend-mentor-projects.png";
 import Pokedex from "/assets/pokedex.png";
 import WeatherApp from "/assets/weather-app.png";
+import BettaInfo from "/assets/betta-info.png";
+import Musicfy from "/assets/musicfy.png";
 import { FiGithub } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -65,6 +67,17 @@ export default function Projects() {
     },
     {
       id: 4,
+      name: "Betta Info",
+      date: "December 2022",
+      image: BettaInfo,
+      code: "https://github.com/itsmecedy/Betta-Info",
+      link: "https://itsmecedy.github.io/Betta-Info/",
+      description:
+        "Betta Info was one of my early projects when I was just starting to learn HTML, CSS, and JavaScript. It’s a simple informational site about Betta fish, created as a practice project to explore basic web development concepts, including layout design, CSS styling, and content structuring. This project marked the beginning of my web development journey.",
+      techStack: ["HTML", "CSS", "JavaScript", "Tailwind"],
+    },
+    {
+      id: 5,
       name: "Mini Challenges",
       date: "January 2023",
       image: MiniChallenges,
@@ -75,7 +88,18 @@ export default function Projects() {
       techStack: ["React", "CSS", "Tailwind"],
     },
     {
-      id: 5,
+      id: 6,
+      name: "Musicfy",
+      date: "August 2023",
+      image: Musicfy,
+      code: "https://github.com/itsmecedy/Musicfy",
+      link: "https://app-musicfy.netlify.app/",
+      description:
+        "Musicfy is a static music streaming web app built as a practice project while learning ReactJS and TailwindCSS. This project helped me get familiar with React component structure, JSX, and styling with TailwindCSS. Although it has no backend functionality, it served as an important step in my journey to understanding React and modern CSS frameworks.",
+      techStack: ["HTML", "CSS", "JavaScript", "ReactJS", "TailwindCSS"],
+    },
+    {
+      id: 7,
       name: "Pokedex",
       date: "October 2024",
       image: Pokedex,
@@ -86,7 +110,7 @@ export default function Projects() {
       techStack: ["HTML", "CSS", "JavaScript", "Sass", "PokeAPI"],
     },
     {
-      id: 6,
+      id: 8,
       name: "Frontend Mentor Projects",
       date: "February 2025",
       image: FrontendMentorProj,
@@ -97,7 +121,7 @@ export default function Projects() {
       techStack: ["HTML", "CSS", "JS", "TailwindCSS", "ReactJS"],
     },
     {
-      id: 7,
+      id: 9,
       name: "Weather App",
       date: "February 2025",
       image: WeatherApp,
