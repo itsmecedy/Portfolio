@@ -18,10 +18,10 @@ export default function About() {
           </p>
           <p className="text-neutral-500 lg:text-left">
             As an aspiring front-end developer, I possess a diverse skill set
-            including HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel
-            in creating and maintaining responsive websites, ensuring a seamless
-            user experience. My strength lies in crafting dynamic and engaging
-            interfaces by writing clean, optimized code and employing
+            including HTML, CSS, Sass,TailwindCSS, JavaScript, and ReactJS. I
+            excel in creating and maintaining responsive websites, ensuring a
+            seamless user experience. My strength lies in crafting dynamic and
+            engaging interfaces by writing clean, optimized code and employing
             cutting-edge development tools. A collaborative team player, I
             thrive in working with cross-functional teams to deliver outstanding
             web applications.

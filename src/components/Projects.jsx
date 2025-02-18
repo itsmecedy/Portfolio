@@ -45,6 +45,17 @@ export default function Projects() {
     },
     {
       id: 2,
+      name: "Frontend Mentor Projects",
+      date: "February 2025",
+      image: FrontendMentorProj,
+      code: "https://github.com/itsmecedy/frontend-mentor-projects-",
+      link: "https://frontend-mentor-projects-itsmecedy.netlify.app/",
+      description:
+        "I worked on these Frontend Mentor projects to improve my layout, interactivity, and responsiveness skills. I practiced Sass for better styling structure, TailwindCSS for speed, and React for building interactive components. It was a great way to apply what Ive learned and get more comfortable with modern frontend tools.",
+      techStack: ["HTML", "CSS", "JS", "TailwindCSS", "ReactJS"],
+    },
+    {
+      id: 3,
       name: "Coron Palawan",
       date: "November 2022",
       image: CoronPalawan,
@@ -55,7 +66,7 @@ export default function Projects() {
       techStack: ["HTML", "CSS", "Sass"],
     },
     {
-      id: 3,
+      id: 4,
       name: "Michi Ramen Clone",
       date: "November 2022",
       image: MichiRamen,
@@ -66,7 +77,7 @@ export default function Projects() {
       techStack: ["HTML", "CSS", "Tailwind"],
     },
     {
-      id: 4,
+      id: 5,
       name: "Betta Info",
       date: "December 2022",
       image: BettaInfo,
@@ -77,7 +88,7 @@ export default function Projects() {
       techStack: ["HTML", "CSS", "JavaScript", "Tailwind"],
     },
     {
-      id: 5,
+      id: 6,
       name: "Mini Challenges",
       date: "January 2023",
       image: MiniChallenges,
@@ -88,7 +99,7 @@ export default function Projects() {
       techStack: ["React", "CSS", "Tailwind"],
     },
     {
-      id: 6,
+      id: 7,
       name: "Musicfy",
       date: "August 2023",
       image: Musicfy,
@@ -99,7 +110,7 @@ export default function Projects() {
       techStack: ["HTML", "CSS", "JavaScript", "ReactJS", "TailwindCSS"],
     },
     {
-      id: 7,
+      id: 8,
       name: "Pokedex",
       date: "October 2024",
       image: Pokedex,
@@ -108,17 +119,6 @@ export default function Projects() {
       description:
         "An interactive Pokédex that allows users to search for Pokémon and view their stats, abilities, and types. Built using PokeAPI to fetch real-time Pokémon data.",
       techStack: ["HTML", "CSS", "JavaScript", "Sass", "PokeAPI"],
-    },
-    {
-      id: 8,
-      name: "Frontend Mentor Projects",
-      date: "February 2025",
-      image: FrontendMentorProj,
-      code: "https://github.com/itsmecedy/frontend-mentor-projects-",
-      link: "https://frontend-mentor-projects-itsmecedy.netlify.app/",
-      description:
-        "I worked on these Frontend Mentor projects to improve my layout, interactivity, and responsiveness skills. I practiced Sass for better styling structure, TailwindCSS for speed, and React for building interactive components. It was a great way to apply what Ive learned and get more comfortable with modern frontend tools.",
-      techStack: ["HTML", "CSS", "JS", "TailwindCSS", "ReactJS"],
     },
     {
       id: 9,
@@ -139,7 +139,8 @@ export default function Projects() {
   const sortedProjects = [
     projects[0],
     projects[1],
-    ...projects.slice(2).reverse(),
+    projects[2],
+    ...projects.slice(3).reverse(),
   ];
 
   return (
