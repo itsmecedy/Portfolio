@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import aboutImg from "/assets/aboutimg.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS styles
 
 export default function About() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize AOS
+  }, []);
   return (
     <div id="about">
       <div className=" max-w-[80rem] flex justify-center items-center mx-auto px-5 py-20 md:py-24 flex-col lg:flex-row gap-10 ">
-        <div className="lg:w-1/2 flex justify-center ">
+        <div data-aos="fade-right" className="lg:w-1/2 flex justify-center ">
           <img className="rounded-2xl w-full max-w-lg " src={aboutImg} />
         </div>
-        <div className="lg:w-1/2 w-full md:w-[600px] ">
+        <div data-aos="fade-left" className="lg:w-1/2 w-full md:w-[600px] ">
           <p className="bold uppercase font-bold text-lg text-blue-600 mb-4 lg:text-left">
             about me
           </p>

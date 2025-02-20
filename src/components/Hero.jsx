@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import heroImg from "/assets/cedy.png";
 import html from "/assets/html.png";
 import css from "/assets/css.png";
@@ -8,8 +9,13 @@ import sass from "/assets/sass.png";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import Resume from "/assets/Mancio-Resume.pdf";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS styles
 
 export default function Hero() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize AOS
+  }, []);
   const images = [html, css, javascript, react, sass, tailwind];
   const imageElements = images.map((image, index) => (
     <img
@@ -20,7 +26,11 @@ export default function Hero() {
     />
   ));
   return (
-    <div id="home" className="bg-[#f9f9f9] md:h-screen ">
+    <div
+      id="home"
+      data-aos="zoom-in-down"
+      className="bg-[#f9f9f9] md:h-screen "
+    >
       <div className=" max-w-[80rem] flex justify-center items-center mx-auto px-5 pt-20 md:pt-24 lg:pt-40 flex-col lg:flex-row gap-10">
         {/* left side in big screen */}
         <div className="flex-1 flex justify-center px-5 ">

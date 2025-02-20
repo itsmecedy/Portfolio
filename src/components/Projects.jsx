@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import portfolio from "/assets/portfolio.png";
 import MichiRamen from "/assets/michi-ramen.png";
 import MiniChallenges from "/assets/MiniChallenges.png";
@@ -11,8 +11,13 @@ import BettaInfo from "/assets/betta-info.png";
 import Musicfy from "/assets/musicfy.png";
 import { FiGithub } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS styles
 
 export default function Projects() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize AOS
+  }, []);
   const projects = [
     {
       id: 0,
@@ -144,12 +149,13 @@ export default function Projects() {
   ];
 
   return (
-    <div id="projects" className="bg-[#f9f9f9]">
+    <div id="projects" className="bg-[#f9f9f9] ">
       <div className=" max-w-[80rem] flex justify-center mx-auto pt-16 md:pt-20 px-5 flex-col">
         <p className=" flex text-4xl text-gray-800 mb-2">Projects</p>
         {sortedProjects.map((project) => (
           <div
             key={project.id}
+            data-aos="zoom-in-up"
             className="flex flex-col lg:flex-row mx-auto shadow-xl bg-white rounded-md py-3 px-4 my-5"
           >
             {/* left side */}
