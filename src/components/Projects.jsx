@@ -161,7 +161,7 @@ export default function Projects() {
             {/* left side */}
             <div className="flex-1 flex justify-center">
               <div className="wrapperScroll">
-                <img className="imgScroll" src={project.image} />
+                <img src={project.image} loading="lazy" className="imgScroll" />
               </div>
             </div>
             {/* right side */}
