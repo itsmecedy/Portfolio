@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 
 export default function Contacts() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize AOS
+  }, []);
   return (
-    <div id="contact">
+    <div id="contact" data-aos="fade-up">
       <div className="max-w-[80rem] flex justify-center items-center mx-auto px-5 py-20 md:py-24 flex-col gap-10 ">
         <p className=" text-lg font-semibold">
           Ready to collaborate? Exciting projects start with a simple 'Hello

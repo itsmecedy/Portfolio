@@ -9,9 +9,7 @@ export default function Footer() {
       <div className="max-w-[80rem] mx-auto ">
         <div className="flex items-center flex-col lg:flex-row justify-between py-10 px-2  gap-5">
           <div className="flex justify-center items-center ">
-            <p className=" text-white">
-              Copyright © 2024. All rights are reserved
-            </p>
+            <p className=" text-white">Made with 💗 by ItsMeCedy @ 2025</p>
           </div>
           <div className=" text-3xl text-white flex flex-row gap-5">
             <a
