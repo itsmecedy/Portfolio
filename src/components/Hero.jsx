@@ -43,14 +43,14 @@ export default function Hero() {
           className="flex-1 lg:pt-20 px-5 md:px-20 lg:px-5  space-y-3 md:space-y-4"
           data-aos="fade-left"
         >
-          <p className="font-semibold text-2xl md:text-3xl ">
+          <p className="font-semibold text-2xl md:text-3xl text-">
             Front-End Web Developer💻
           </p>
           <p className="text-slate-500 md:text-2xl lg:text-3xl  ">
             Hi I'm Cedrick Mancio. A passionate aspiring front-end developer👋.
           </p>
 
-          <wrapper className=" flex justify-center items-center gap-10 lg:flex-col">
+          <div className=" flex justify-center items-center gap-10 lg:flex-col">
             <div className="justify-center gap-3 flex text-slate-700 text-5xl lg:text-6xl ">
               <a
                 href="https://www.facebook.com/hillo.cabello/"
@@ -79,7 +79,7 @@ export default function Hero() {
                 View Resume
               </a>
             </div>
-          </wrapper>
+          </div>
         </div>
       </div>
       <div

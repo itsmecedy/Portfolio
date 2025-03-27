@@ -20,7 +20,7 @@ export default function Projects() {
   return (
     <div id="projects" className="bg-[#f9f9f9]">
       <div className=" max-w-[80rem] flex justify-center mx-auto pt-16 md:pt-20 px-5 flex-col">
-        <p className=" flex text-4xl text-gray-800 mb-2">Projects</p>
+        <p className=" flex text-xl md:text-4xl text-gray-800 mb-2">Projects</p>
         {sortedProjects.map((project, index) => (
           <div
             key={project.id}
@@ -52,7 +52,7 @@ export default function Projects() {
                 {project.techStack.map((tech, index) => (
                   <p
                     key={index}
-                    className="p-1 px-2 rounded shadow-md font-semibold"
+                    className="p-1 px-2 rounded-sm shadow-md font-semibold"
                   >
                     {tech}
                   </p>

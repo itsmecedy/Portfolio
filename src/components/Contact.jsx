@@ -16,9 +16,9 @@ export default function Contacts() {
         </p>
         <div className=" flex items-center flex-row gap-2 text-left ">
           <FaLocationDot className=" text-3xl text-blue-600" />
-          <p>Pasig 1600, Metro Manila, Philippines</p>
+          <p>Pasig 1608, Metro Manila, Philippines</p>
         </div>
-        <div className=" flex items-center flex-row gap-2 text-left ">
+        <div className=" flex items-center flex-row gap-2 text-left bg-">
           <MdEmail className=" text-3xl text-blue-600" />
           <a
             href="mailto:cedrickcmancio@gmail.com"

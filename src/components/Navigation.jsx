@@ -16,11 +16,11 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="bg-gray-800">
-      <div className="max-w-[80rem] mx-auto px-5 ">
-        <div className="flex items-center justify-between h-16">
+    <div className="bg-gray-800">
+      <div className="max-w-[80rem] mx-auto px-5">
+        <div className="flex items-center justify-between h-20 ">
           <div className="flex items-center">
-            <a href="#home" className="flex-shrink-0 text-white">
+            <a href="#home" className="shrink-0 text-white ">
               ItsMeCedy💻
             </a>
           </div>
@@ -41,7 +41,7 @@ export default function Navigation() {
             <button
               onClick={toggleMenu}
               type="button"
-              className="text-white hover:text-gray-400 focus:outline-none focus:text-gray-400"
+              className="text-white hover:text-gray-400 focus:outline-hidden focus:text-gray-400"
             >
               {isOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
             </button>
@@ -64,6 +64,6 @@ export default function Navigation() {
           ))}
         </ul>
       )}
-    </nav>
+    </div>
   );
 }
