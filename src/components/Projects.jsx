@@ -40,7 +40,7 @@ export default function Projects() {
               </div>
             </div>
             {/* right side */}
-            <div className="flex-1 flex max-w-xl flex-col justify-center">
+            <div className="flex-1 flex max-w-xl flex-col justify-center text-red-">
               <div className=" text-xl font-semibold mt-5 px-2">
                 {project.name}
                 <span className=" text-gray-600 pl-2">{project.date}</span>

@@ -9,7 +9,7 @@ import tailwind from "/assets/tailwindcss.png";
 import sass from "/assets/sass.png";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
-import Resume from "/assets/Mancio-Resume.pdf";
+import Resume from "../../public/assets/Mancio-Resume.pdf";
 
 export default function Hero() {
   useEffect(() => {
@@ -43,7 +43,7 @@ export default function Hero() {
           className="flex-1 lg:pt-20 px-5 md:px-20 lg:px-5  space-y-3 md:space-y-4"
           data-aos="fade-left"
         >
-          <p className="font-semibold text-2xl md:text-3xl text-">
+          <p className="font-semibold text-2xl md:text-3xl">
             Front-End Web Developer💻
           </p>
           <p className="text-slate-500 md:text-2xl lg:text-3xl  ">
