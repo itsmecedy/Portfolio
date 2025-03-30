@@ -1,13 +1,13 @@
-import portfolio from "/assets/portfolio.png";
-import MichiRamen from "/assets/michi-ramen.png";
-import MiniChallenges from "/assets/MiniChallenges.png";
-import ABCMotorShop from "/assets/abc-motor-shop.jpg";
-import CoronPalawan from "/assets/coron-palawan.png";
-import FrontendMentorProj from "/assets/frontend-mentor-projects.png";
-import Pokedex from "/assets/pokedex.png";
-import WeatherApp from "/assets/weather-app.png";
-import BettaInfo from "/assets/betta-info.png";
-import Musicfy from "/assets/musicfy.png";
+import portfolio from "../assets/portfolio.png";
+import MichiRamen from "../assets/michi-ramen.png";
+import MiniChallenges from "../assets/MiniChallenges.png";
+import ABCMotorShop from "../assets/abc-motor-shop.jpg";
+import CoronPalawan from "../assets/coron-palawan.png";
+import FrontendMentorProj from "../assets/frontend-mentor-projects.png";
+import Pokedex from "../assets/pokedex.png";
+import WeatherApp from "../assets/weather-app.png";
+import BettaInfo from "../assets/betta-info.png";
+import Musicfy from "../assets/musicfy.png";
 
 export const projects = [
   {

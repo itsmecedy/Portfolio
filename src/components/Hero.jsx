@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import heroImg from "/assets/cedy.png";
-import html from "/assets/html.png";
-import css from "/assets/css.png";
-import javascript from "/assets/javascript.png";
-import react from "/assets/react.png";
-import tailwind from "/assets/tailwindcss.png";
-import sass from "/assets/sass.png";
+import heroImg from "../assets/cedy.png";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import javascript from "../assets/javascript.png";
+import react from "../assets/react.png";
+import tailwind from "../assets/tailwindcss.png";
+import sass from "../assets/sass.png";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
-import Resume from "../../public/assets/Mancio-Resume.pdf";
+import Resume from "../assets/documents/Mancio-Resume.pdf";
 
 export default function Hero() {
   useEffect(() => {

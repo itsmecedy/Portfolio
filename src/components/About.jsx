@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import aboutImg from "/assets/aboutimg.jpg";
+import aboutImg from "../assets/aboutimg.jpg";
 
 export default function About() {
   useEffect(() => {
