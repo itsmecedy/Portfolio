@@ -127,6 +127,17 @@ export const projects = [
       "A weather application that provides real-time weather updates along with a 5-day forecast, showing temperature trends and conditions. Built using OpenWeatherMap API.",
     techStack: ["HTML", "CSS", "JavaScript", "SCSS", "OpenWeatherMap API"],
   },
+  {
+    id: 10,
+    name: "KathRence Petshop",
+    date: "April 2025",
+    image: WeatherApp,
+    code: "https://github.com/itsmecedy/kathrence",
+    link: "https://kathrence.netlify.app/",
+    description:
+      "A weather application that provides real-time weather updates along with a 5-day forecast, showing temperature trends and conditions. Built using OpenWeatherMap API.",
+    techStack: ["HTML", "CSS", "JavaScript", "ReactJS", "TailwindCSS"],
+  },
 
   // Add more projects here
 ];
