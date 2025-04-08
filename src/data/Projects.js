@@ -135,7 +135,7 @@ export const projects = [
     code: "https://github.com/itsmecedy/kathrence",
     link: "https://kathrence.netlify.app/",
     description:
-      "A weather application that provides real-time weather updates along with a 5-day forecast, showing temperature trends and conditions. Built using OpenWeatherMap API.",
+      "Welcome to KathRence Pet Supplies, your go-to destination for premium dog and cat essentials in Metro Manila! Our name, KathRence, is inspired by the namesKathlene and Florence, reflecting our passion and commitment to pet care. Conveniently located at2991 Kaalinsabay St., Karangalan Village, Manggahan, Pasig City, we offer a carefully curated selection of high-quality pet supplies— from nutritious food and irresistible treats to fun toys, stylish accessories, and premium cat litter. Because at KathRence, we believe every pet deserves the best! 🐶🐱",
     techStack: ["HTML", "CSS", "JavaScript", "ReactJS", "TailwindCSS"],
   },
 
