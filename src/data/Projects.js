@@ -135,7 +135,7 @@ export const projects = [
     code: "https://github.com/itsmecedy/kathrence",
     link: "https://kathrence.netlify.app/",
     description:
-      "Welcome to KathRence Pet Supplies, your go-to destination for premium dog and cat essentials in Metro Manila! Our name, KathRence, is inspired by the namesKathlene and Florence, reflecting our passion and commitment to pet care. Conveniently located at2991 Kaalinsabay St., Karangalan Village, Manggahan, Pasig City, we offer a carefully curated selection of high-quality pet supplies— from nutritious food and irresistible treats to fun toys, stylish accessories, and premium cat litter. Because at KathRence, we believe every pet deserves the best! 🐶🐱",
+      "For this commission, I created a brand introduction for KathRence Pet Supplies, a premium pet store based in Metro Manila. The store’s name, KathRence, is a heartfelt combination of Kathlene and Florence, symbolizing the owners' dedication to pet care and service excellence.",
     techStack: ["HTML", "CSS", "JavaScript", "ReactJS", "TailwindCSS"],
   },
 
