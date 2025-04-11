@@ -8,6 +8,7 @@ import Pokedex from "../assets/pokedex.png";
 import WeatherApp from "../assets/weather-app.png";
 import BettaInfo from "../assets/betta-info.png";
 import Musicfy from "../assets/musicfy.png";
+import Kathrence from "../assets/kathrence.png";
 
 export const projects = [
   {
@@ -131,7 +132,7 @@ export const projects = [
     id: 10,
     name: "KathRence Petshop",
     date: "April 2025",
-    image: WeatherApp,
+    image: Kathrence,
     code: "https://github.com/itsmecedy/kathrence",
     link: "https://kathrence.netlify.app/",
     description:
